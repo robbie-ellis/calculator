@@ -135,31 +135,31 @@ function App() {
           <div className='col p-0'><button id="clear" onClick={clearAll} className='btn btn-dark w-100'>Clear</button></div>
         </div>
         <div className='row row-padding'>
-          <div className='col-sm-9 p-0'></div>
-          <div className='col-sm-3 p-0'><button id="divide" value="/" onClick={handleOperators} className='operator-button btn w-100'>/</button></div>
+          <div className='col-9 p-0'></div>
+          <div className='col-3 p-0'><button id="divide" value="/" onClick={handleOperators} className='operator-button btn w-100'>/</button></div>
         </div>
         <div className='row row-padding'>
-          <div className='col-sm-3 p-0'><button id="seven" value="7" onClick={handleNumberInput} className='numeric-button btn w-100'>7</button></div>
-          <div className='col-sm-3 p-0'><button id="eight" value="8" onClick={handleNumberInput} className='numeric-button btn w-100'>8</button></div>
-          <div className='col-sm-3 p-0'><button id="nine" value="9" onClick={handleNumberInput} className='numeric-button btn w-100'>9</button></div>
-          <div className='col-sm-3 p-0'><button id="multiply" value="*" onClick={handleOperators} className='operator-button btn w-100'>*</button></div>
+          <div className='col-3 p-0'><button id="seven" value="7" onClick={handleNumberInput} className='numeric-button btn w-100'>7</button></div>
+          <div className='col-3 p-0'><button id="eight" value="8" onClick={handleNumberInput} className='numeric-button btn w-100'>8</button></div>
+          <div className='col-3 p-0'><button id="nine" value="9" onClick={handleNumberInput} className='numeric-button btn w-100'>9</button></div>
+          <div className='col-3 p-0'><button id="multiply" value="*" onClick={handleOperators} className='operator-button btn w-100'>*</button></div>
         </div>
         <div className='row row-padding'>
-          <div className='col-sm-3 p-0'><button id="four" value="4" onClick={handleNumberInput} className='numeric-button btn w-100'>4</button></div>
-          <div className='col-sm-3 p-0'><button id="five" value="5" onClick={handleNumberInput} className='numeric-button btn w-100'>5</button></div>
-          <div className='col-sm-3 p-0'><button id="six" value="6" onClick={handleNumberInput} className='numeric-button btn w-100'>6</button></div>
-          <div className='col-sm-3 p-0'><button id="subtract" value="-" onClick={handleOperators} className='operator-button btn w-100'>-</button></div>
+          <div className='col-3 p-0'><button id="four" value="4" onClick={handleNumberInput} className='numeric-button btn w-100'>4</button></div>
+          <div className='col-3 p-0'><button id="five" value="5" onClick={handleNumberInput} className='numeric-button btn w-100'>5</button></div>
+          <div className='col-3 p-0'><button id="six" value="6" onClick={handleNumberInput} className='numeric-button btn w-100'>6</button></div>
+          <div className='col-3 p-0'><button id="subtract" value="-" onClick={handleOperators} className='operator-button btn w-100'>-</button></div>
         </div>
         <div className='row row-padding'>
-          <div className='col-sm-3 p-0'><button id="one" value="1" onClick={handleNumberInput} className='numeric-button btn w-100'>1</button></div>
-          <div className='col-sm-3 p-0'><button id="two" value="2" onClick={handleNumberInput} className='numeric-button btn w-100'>2</button></div>
-          <div className='col-sm-3 p-0'><button id="three" value="3" onClick={handleNumberInput} className='numeric-button btn w-100'>3</button></div>
-          <div className='col-sm-3 p-0'><button id="add" value="+" onClick={handleOperators} className='operator-button btn w-100'>+</button></div>  
+          <div className='col-3 p-0'><button id="one" value="1" onClick={handleNumberInput} className='numeric-button btn w-100'>1</button></div>
+          <div className='col-3 p-0'><button id="two" value="2" onClick={handleNumberInput} className='numeric-button btn w-100'>2</button></div>
+          <div className='col-3 p-0'><button id="three" value="3" onClick={handleNumberInput} className='numeric-button btn w-100'>3</button></div>
+          <div className='col-3 p-0'><button id="add" value="+" onClick={handleOperators} className='operator-button btn w-100'>+</button></div>  
         </div>
         <div className='row row-padding'>
-          <div className='col-sm-3 p-0'><button id="decimal" onClick={handleDecimalInput} className='operator-button btn w-100'>.</button></div>
-          <div className='col-sm-3 p-0'><button id="zero" value="0" onClick={handleNumberInput} className='numeric-button btn w-100'>0</button></div>
-          <div className='col-sm-6 p-0'><button id="equals" onClick={handleEquals} className='btn btn-dark w-100'>=</button></div>          
+          <div className='col-3 p-0'><button id="decimal" onClick={handleDecimalInput} className='operator-button btn w-100'>.</button></div>
+          <div className='col-3 p-0'><button id="zero" value="0" onClick={handleNumberInput} className='numeric-button btn w-100'>0</button></div>
+          <div className='col-6 p-0'><button id="equals" onClick={handleEquals} className='btn btn-dark w-100'>=</button></div>          
         </div>
       </div>
     </div>
